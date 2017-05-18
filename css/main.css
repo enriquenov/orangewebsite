@@ -282,11 +282,60 @@ div.footer p {
   }
 }
 
-@media (max-width: 414px) {
-  div.logo {
-    margin: 30px auto 10px;
+@media (max-width: 1000px) {
+  div.logo img {
+    padding-left: 28.5%;
+  }
+}
+
+@media (max-width: 975px) {
+  div.logo img {
+    padding-left: 27%;
+  }
+}
+
+@media (max-width: 950px) {
+  div.logo img {
+    padding-left: 25.5%;
+  }
+}
+
+@media (max-width: 925px) {
+  div.logo img {
+    padding-left: 24%;
+  }
+}
+
+@media (max-width: 900px) {
+  div.logo img {
+    padding-left: 23.5%;
+  }
+}
+
+@media (max-width: 850px) {
+  div.logo img {
+    padding-left: 23%;
   }
 
+  nav ul li {
+    border: none;
+    border-top: 1px solid azure;
+    text-align: center;
+    padding: 6px 0;
+    width: 100%;
+  }
+
+  nav ul li:first-child {
+    border-top: 1px solid azure;
+  }
+
+  nav ul li a {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
   div.logo img {
     height: auto;
     padding-left: 18%;
